@@ -325,313 +325,1111 @@
 
 
 
+
+
 	
 
- <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "원룸 인터넷 가입 및 비용 상담 서비스",
-    "name": "원룸 인터넷 비용 비교 분석 및 가입 상담 센터",
-    "description": "2026년 최신 원룸 인터넷 비용 정보를 제공하고, SKT, KT, LGU+ 등 통신사별 요금제와 사은품, 현금지원 혜택을 비교하여 고객 맞춤형 최적의 상품을 추천합니다. 전국 지역별 평균 가격 및 저렴한 곳 찾기 가이드.",
-    "provider": {
-      "@type": "Organization",
-      "name": "대한민국 인터넷 가입 비교 센터"
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "원룸 인터넷 상품 비교",
-      "itemListElement": [
-        {"@type":"Offer","itemOffered":{"@type":"Service","name":"SKT 원룸 인터넷 가입"}},
-        {"@type":"Offer","itemOffered":{"@type":"Service","name":"KT 원룸 인터넷 가입"}},
-        {"@type":"Offer","itemOffered":{"@type":"Service","name":"LGU+ 원룸 인터넷 가입"}},
-        {"@type":"Offer","itemOffered":{"@type":"Service","name":"원룸 인터넷 100M/500M 요금제 비교"}},
-        {"@type":"Offer","itemOffered":{"@type":"Service","name":"인터넷+TV 결합 할인 혜택 분석"}}
+    <!-- Schema.org JSON-LD (Semantic SEO & AI Agent Crawling Optimization) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://example.com/one-room-internet-cost#webpage",
+          "url": "https://example.com/one-room-internet-cost",
+          "name": "2026년 원룸인터넷비용 최저가 요금제 비교 및 현금지원 계산 가이드",
+          "description": "원룸 1인 가구 인터넷 비용 구조, 속도별 요금 차이, 통신사별 결합 할인, 설치 가이드 제공",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "홈",
+                "item": "https://example.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "인터넷 요금 분석",
+                "item": "https://example.com/internet-guide"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "원룸인터넷비용",
+                "item": "https://example.com/one-room-internet-cost"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://example.com/one-room-internet-cost#article",
+          "isPartOf": {
+            "@id": "https://example.com/one-room-internet-cost#webpage"
+          },
+          "headline": "2026년 원룸인터넷비용 완벽 분석: 통신사별 요금, 결합할인, 사은품 현금지원 및 절약 가이드",
+          "datePublished": "2026-01-10T09:00:00+09:00",
+          "dateModified": "2026-03-25T14:30:00+09:00",
+          "author": {
+            "@type": "Organization",
+            "name": "통신비용연구센터"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "통신인터넷 가이드",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://example.com/logo.png"
+            }
+          },
+          "mainEntityOfPage": "https://example.com/one-room-internet-cost"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://example.com/one-room-internet-cost#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "원룸 인터넷 비용은 월 평균 얼마 정도 발생하나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "2026년 기준 3년 약정 단독 인터넷(100Mbps) 가입 시 월 요금은 약 22,000원 선이며, 모바일 결합 시 월 16,500원 이하로 낮출 수 있습니다. 500Mbps 기가라이트 상품은 월 약 33,000원, IPTV 결합 시 월 38,000원에서 45,000원 수준으로 형성됩니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "원룸 관리비에 포함된 인터넷과 개별 가입 인터넷의 차이점은 무엇인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "관리비 포함 인터넷은 건물 전체가 하나의 회선을 공유하므로 비용이 월 5천원 내외로 저렴하지만, 저녁 시간대 속도 저하와 핑(Ping) 튐 현상이 발생할 수 있습니다. 개별 단독 가입은 독립된 대칭형 광랜(FTTH)을 제공받아 끊김 없는 고속 통신과 사은품 현금지원 혜택을 받을 수 있습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "자취 원룸에서 100M, 500M, 1G 중 어떤 속도를 선택해야 가장 경제적인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "웹서핑, 유튜브 시청, OTT 스트리밍 위주의 일반 자취생에게는 100Mbps가 가장 가성비가 높습니다. 대용량 파일 전송, 고사양 온라인 게임(FPS), 재택근무 화상회의를 자주 진행한다면 500Mbps가 가장 합리적인 선택입니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "원룸 계약 기간(1년~2년)이 남았는데 3년 약정으로 가입해도 되나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "네, 3년 약정으로 가입하여 최대 요금 할인과 현금지원을 받은 뒤, 이사 시 이전설치를 진행하면 위약금 없이 약정이 유지됩니다. 만약 이사할 주택에 인터넷 설치가 불가능한 건물 환경이라면 증빙서류 제출 시 위약금(할인반환금)이 전액 면제됩니다."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Product",
+          "name": "원룸 인터넷 요금 비교 및 컨설팅 서비스",
+          "description": "국내 통신 3사 및 알뜰통신사 원룸 전용 요금제 비교 견적 및 맞춤형 결합 할인 계산 서비스",
+          "brand": {
+            "@type": "Brand",
+            "name": "원룸통신비교센터"
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "KRW",
+            "lowPrice": "16500",
+            "highPrice": "44000",
+            "offerCount": "12"
+          }
+        }
       ]
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.example.com/oneroom-internet-cost"
     }
-  }
-  </script>
+    </script>
 
-  <link rel="canonical" href="https://www.example.com/oneroom-internet-cost">
+    <style>
+      :root {
+        --primary: #0f172a;
+        --primary-light: #1e293b;
+        --accent-indigo: #4f46e5;
+        --accent-blue: #2563eb;
+        --accent-teal: #0d9488;
+        --accent-soft: #e0e7ff;
+        --bg-main: #f8fafc;
+        --card-bg: #ffffff;
+        --border-ui: #e2e8f0;
+        --border-focus: #94a3b8;
+        --text-headline: #0f172a;
+        --text-body: #334155;
+        --text-muted: #64748b;
+        --badge-bg: #f1f5f9;
+        --highlight-box: #f0fdf4;
+        --highlight-border: #bbf7d0;
+        --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+        --shadow-md: 0 4px 14px rgba(0,0,0,0.06), 0 2px 6px rgba(0,0,0,0.04);
+        --shadow-lg: 0 10px 25px rgba(0,0,0,0.08);
+      }
 
-  <!-- CSS 스타일링: 부드러운 색감 및 시각적 계층 구조 적용 -->
-  <style>
-    /* Reset and Typography */
-    body { font-family: "Noto Sans KR", Arial, sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.8; background-color: #f8f9fa; }
-    header, section, footer { max-width: 1000px; margin: 0 auto; padding: 30px 20px; box-sizing: border-box; }
-    h1, h2, h3, h4 { color: #1a1a1a; font-weight: 700; line-height: 1.5; }
-    h1 { font-size: 2.5em; text-align: center; margin-bottom: 10px; color: #007bff; }
-    h2 { font-size: 2em; margin-top: 40px; border-bottom: 2px solid #e9ecef; padding-bottom: 10px; }
-    h3 { font-size: 1.5em; margin-top: 30px; color: #007bff; }
-    p { margin-bottom: 20px; font-size: 1.05em; }
+      @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&display=swap');
 
-    /* Layout and Containers */
-    .hero { background-color: #eaf6ff; text-align: center; padding: 60px 20px; border-bottom: 5px solid #007bff; }
-    .hero p { color: #555; font-size: 1.2em; max-width: 800px; margin: 20px auto; }
-    .content-area { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 30px; }
-    .main-content { flex: 3; min-width: 300px; background-color: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); }
-    .sidebar { flex: 1; min-width: 250px; background-color: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
 
-    /* Call to Action */
-    .cta-button { display: inline-block; background: #007bff; color: #fff; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-size: 1.1em; font-weight: bold; transition: background 0.3s, transform 0.3s; margin-top: 20px; }
-    .cta-button:hover { background: #0056b3; transform: translateY(-2px); }
+      body {
+        font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;
+        background-color: var(--bg-main);
+        color: var(--text-body);
+        line-height: 1.85;
+        font-weight: 400;
+        letter-spacing: -0.015em;
+      }
 
-    /* Images */
-    .image-container { text-align: center; margin: 20px 0; }
-    .image-container img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); }
+      .container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
 
-    /* Tables */
-    table { width: 100%; border-collapse: collapse; margin-top: 20px; background-color: #ffffff; font-size: 0.95em; }
-    th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
-    th { background-color: #f0f8ff; font-weight: bold; color: #333; }
-    tr:nth-child(even) { background-color: #f9f9f9; }
+      /* Header Layout */
+      header {
+        background-color: var(--primary);
+        color: #ffffff;
+        padding: 22px 0;
+        border-bottom: 1px solid var(--primary-light);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      .nav-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .nav-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #ffffff;
+        letter-spacing: -0.02em;
+      }
+      .nav-links {
+        display: flex;
+        gap: 20px;
+      }
+      .nav-links a {
+        color: #cbd5e1;
+        text-decoration: none;
+        font-size: 0.95rem;
+        font-weight: 500;
+        transition: color 0.2s;
+      }
+      .nav-links a:hover {
+        color: #ffffff;
+      }
 
-    /* Lists and Links */
-    ul.keyword-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; }
-    ul.keyword-list li { background-color: #eaf6ff; border: 1px solid #cce5ff; padding: 8px 15px; border-radius: 20px; font-size: 0.9em; color: #007bff; font-weight: 500; }
-    a { color: #007bff; text-decoration: none; transition: color 0.3s; }
-    a:hover { color: #0056b3; text-decoration: underline; }
+      /* Hero Section */
+      .hero {
+        background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #1e293b 100%);
+        color: #ffffff;
+        padding: 85px 0 75px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-badge {
+        display: inline-block;
+        background-color: rgba(79, 70, 229, 0.35);
+        border: 1px solid rgba(165, 180, 252, 0.4);
+        color: #e0e7ff;
+        padding: 6px 18px;
+        border-radius: 9999px;
+        font-size: 0.88rem;
+        font-weight: 600;
+        margin-bottom: 24px;
+        text-transform: uppercase;
+      }
+      .hero h1 {
+        font-size: 2.8rem;
+        font-weight: 800;
+        line-height: 1.35;
+        margin-bottom: 20px;
+        letter-spacing: -0.03em;
+      }
+      .hero p {
+        font-size: 1.2rem;
+        color: #cbd5e1;
+        max-width: 820px;
+        margin: 0 auto 36px;
+        font-weight: 300;
+      }
+      .hero-cta {
+        display: inline-block;
+        background-color: var(--accent-indigo);
+        color: #ffffff;
+        font-size: 1.05rem;
+        font-weight: 600;
+        padding: 16px 36px;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: all 0.25s ease;
+        box-shadow: 0 4px 14px rgba(79, 70, 229, 0.4);
+      }
+      .hero-cta:hover {
+        background-color: var(--accent-blue);
+        transform: translateY(-2px);
+      }
 
-    /* FAQ Section */
-    .faq-item { background-color: #fff; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 15px; overflow: hidden; }
-    .faq-question { padding: 15px; cursor: pointer; display: block; background-color: #f0f8ff; font-weight: bold; position: relative; }
-    .faq-question::after { content: '▼'; position: absolute; right: 15px; transform: rotate(0deg); transition: transform 0.3s; }
-    .faq-question.active::after { transform: rotate(180deg); }
-    .faq-answer { padding: 15px; display: none; background-color: #f9f9f9; }
+      /* Main Content Architecture */
+      main {
+        padding: 50px 0 80px;
+      }
+      .content-block {
+        background-color: var(--card-bg);
+        border-radius: 16px;
+        padding: 48px;
+        margin-bottom: 40px;
+        box-shadow: var(--shadow-sm);
+        border: 1px solid var(--border-ui);
+      }
+      .section-tag {
+        display: inline-block;
+        color: var(--accent-indigo);
+        background-color: var(--accent-soft);
+        font-size: 0.85rem;
+        font-weight: 700;
+        padding: 4px 12px;
+        border-radius: 6px;
+        margin-bottom: 14px;
+      }
+      .content-block h2 {
+        font-size: 1.95rem;
+        color: var(--text-headline);
+        font-weight: 700;
+        margin-bottom: 22px;
+        line-height: 1.4;
+        letter-spacing: -0.02em;
+        border-bottom: 2px solid #f1f5f9;
+        padding-bottom: 16px;
+      }
+      .content-block h3 {
+        font-size: 1.4rem;
+        color: var(--primary-light);
+        font-weight: 600;
+        margin-top: 32px;
+        margin-bottom: 16px;
+        line-height: 1.45;
+      }
+      .content-block h4 {
+        font-size: 1.15rem;
+        color: var(--accent-teal);
+        font-weight: 600;
+        margin-top: 24px;
+        margin-bottom: 10px;
+      }
+      .content-block p {
+        margin-bottom: 18px;
+        font-size: 1.03rem;
+        color: var(--text-body);
+        line-height: 1.85;
+      }
+      .content-block ul, .content-block ol {
+        margin: 16px 0 24px 20px;
+      }
+      .content-block li {
+        margin-bottom: 10px;
+        font-size: 1.02rem;
+        color: var(--text-body);
+        line-height: 1.75;
+      }
 
-    /* Form Styling */
-    form { background-color: #f0f8ff; padding: 30px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); }
-    form label { display: block; margin-bottom: 8px; font-weight: bold; color: #007bff; }
-    form input[type="text"], form input[type="tel"], form textarea { width: calc(100% - 20px); padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; }
-    form button { background-color: #28a745; color: white; border: none; padding: 12px 20px; border-radius: 5px; cursor: pointer; font-size: 1em; }
-    form button:hover { background-color: #218838; }
+      /* Data Tables */
+      .table-wrapper {
+        overflow-x: auto;
+        margin: 28px 0;
+        border-radius: 10px;
+        border: 1px solid var(--border-ui);
+      }
+      .data-table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        font-size: 0.95rem;
+        background-color: #ffffff;
+      }
+      .data-table th, .data-table td {
+        padding: 15px 18px;
+        border-bottom: 1px solid var(--border-ui);
+      }
+      .data-table th {
+        background-color: #f8fafc;
+        color: var(--primary);
+        font-weight: 700;
+        white-space: nowrap;
+      }
+      .data-table tr:hover {
+        background-color: #f8fafc;
+      }
+      .data-table td strong {
+        color: var(--accent-indigo);
+        font-weight: 600;
+      }
 
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      .hero h1 { font-size: 2em; }
-      .hero p { font-size: 1em; }
-      .content-area { flex-direction: column; }
-      .main-content, .sidebar { padding: 20px; }
-      .keyword-list li { font-size: 0.8em; }
-    }
-    .footnote { font-size: 0.85em; color: #777; margin-top: 20px; border-top: 1px solid #eee; padding-top: 10px; }
-  </style>
+      /* Visual Chart Simulation (Pure CSS) */
+      .chart-card {
+        background-color: #f8fafc;
+        border: 1px solid var(--border-ui);
+        border-radius: 12px;
+        padding: 28px;
+        margin: 30px 0;
+      }
+      .chart-title {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--text-headline);
+        margin-bottom: 6px;
+        text-align: center;
+      }
+      .chart-sub {
+        font-size: 0.9rem;
+        color: var(--text-muted);
+        margin-bottom: 24px;
+        text-align: center;
+      }
+      .bar-group {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+      .bar-item {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      .bar-label {
+        width: 140px;
+        font-size: 0.92rem;
+        font-weight: 600;
+        color: var(--text-headline);
+        text-align: right;
+        flex-shrink: 0;
+      }
+      .bar-track {
+        flex-grow: 1;
+        background-color: #e2e8f0;
+        height: 28px;
+        border-radius: 6px;
+        overflow: hidden;
+        position: relative;
+      }
+      .bar-fill {
+        height: 100%;
+        background: linear-gradient(90deg, var(--accent-indigo), var(--accent-blue));
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 10px;
+        color: #ffffff;
+        font-size: 0.85rem;
+        font-weight: 700;
+      }
+      .bar-fill.alt {
+        background: linear-gradient(90deg, var(--accent-teal), #14b8a6);
+      }
 
-  <!-- Google Fonts for better Korean font rendering -->
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+      /* Highlight Card / Info Callout */
+      .info-card {
+        background-color: #f8fafc;
+        border-left: 4px solid var(--accent-indigo);
+        padding: 22px 24px;
+        border-radius: 0 10px 10px 0;
+        margin: 24px 0;
+      }
+      .info-card h4 {
+        margin-top: 0;
+        margin-bottom: 8px;
+        color: var(--accent-indigo);
+        font-size: 1.1rem;
+      }
+      .info-card p {
+        margin-bottom: 0;
+        font-size: 0.98rem;
+        color: var(--text-body);
+      }
+
+      /* Calculator Box */
+      .calculator-container {
+        background: linear-gradient(145deg, #ffffff 0%, #f1f5f9 100%);
+        border: 2px solid var(--accent-soft);
+        border-radius: 16px;
+        padding: 36px;
+        margin: 36px 0;
+        box-shadow: var(--shadow-md);
+      }
+      .calculator-container h3 {
+        margin-top: 0;
+        font-size: 1.6rem;
+        color: var(--primary);
+        text-align: center;
+        margin-bottom: 8px;
+      }
+      .calc-sub {
+        text-align: center;
+        color: var(--text-muted);
+        font-size: 0.95rem;
+        margin-bottom: 28px;
+      }
+      .calc-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 20px;
+        margin-bottom: 24px;
+      }
+      .calc-field label {
+        display: block;
+        font-size: 0.92rem;
+        font-weight: 600;
+        color: var(--text-headline);
+        margin-bottom: 8px;
+      }
+      .calc-field select, .calc-field input {
+        width: 100%;
+        padding: 12px 14px;
+        border: 1px solid var(--border-ui);
+        border-radius: 8px;
+        background-color: #ffffff;
+        font-size: 0.98rem;
+        color: var(--text-headline);
+        outline: none;
+        transition: border-color 0.2s;
+      }
+      .calc-field select:focus, .calc-field input:focus {
+        border-color: var(--accent-indigo);
+      }
+      .calc-btn-wrap {
+        text-align: center;
+        margin-top: 10px;
+      }
+      .calc-btn {
+        background-color: var(--accent-indigo);
+        color: #ffffff;
+        border: none;
+        padding: 14px 40px;
+        font-size: 1.05rem;
+        font-weight: 600;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.2s, transform 0.1s;
+      }
+      .calc-btn:hover {
+        background-color: var(--accent-blue);
+      }
+      .calc-result-box {
+        margin-top: 24px;
+        padding: 24px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: 1px solid var(--border-ui);
+        display: none;
+      }
+      .result-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        border-bottom: 1px dashed var(--border-ui);
+        font-size: 0.98rem;
+      }
+      .result-row:last-child {
+        border-bottom: none;
+        padding-top: 12px;
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--accent-indigo);
+      }
+
+      /* FAQ Accordion */
+      .faq-group {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 24px;
+      }
+      .faq-card {
+        border: 1px solid var(--border-ui);
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #ffffff;
+        transition: border-color 0.2s;
+      }
+      .faq-card:hover {
+        border-color: var(--border-focus);
+      }
+      .faq-header {
+        padding: 18px 24px;
+        background-color: #ffffff;
+        font-weight: 600;
+        font-size: 1.05rem;
+        color: var(--text-headline);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+      }
+      .faq-header:hover {
+        background-color: #f8fafc;
+      }
+      .faq-content {
+        padding: 0 24px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease, padding 0.3s ease;
+        background-color: #f8fafc;
+        border-top: 1px solid transparent;
+      }
+      .faq-content.open {
+        padding: 20px 24px;
+        max-height: 400px;
+        border-top: 1px solid var(--border-ui);
+      }
+      .faq-content p {
+        margin: 0;
+        font-size: 0.98rem;
+        color: var(--text-body);
+        line-height: 1.8;
+      }
+
+      /* External Links List */
+      .reference-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .reference-item {
+        padding: 16px 20px;
+        background-color: #f8fafc;
+        border-radius: 8px;
+        margin-bottom: 12px;
+        border: 1px solid var(--border-ui);
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .reference-item a {
+        color: var(--accent-indigo);
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 1.02rem;
+      }
+      .reference-item a:hover {
+        text-decoration: underline;
+      }
+      .reference-item span {
+        font-size: 0.88rem;
+        color: var(--text-muted);
+      }
+
+      /* Footer */
+      footer {
+        background-color: var(--primary);
+        color: #94a3b8;
+        padding: 50px 0;
+        font-size: 0.9rem;
+        border-top: 1px solid var(--primary-light);
+      }
+      .footer-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+      }
+      .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .footer-links a {
+        color: #cbd5e1;
+        text-decoration: none;
+      }
+      .footer-links a:hover {
+        color: #ffffff;
+      }
+
+      @media (max-width: 768px) {
+        .hero h1 {
+          font-size: 2.1rem;
+        }
+        .content-block {
+          padding: 28px 20px;
+        }
+        .calculator-container {
+          padding: 24px 16px;
+        }
+        .bar-label {
+          width: 100px;
+          font-size: 0.82rem;
+        }
+      }
+    </style>
 </head>
 <body>
 
-  <!-- Header Section -->
-  <div class="hero">
-    <h1>원룸 인터넷 비용: 2026년 최신 가이드</h1>
-    <p>혼자 사는 원룸 생활에 꼭 맞는 <strong>가장 저렴한 인터넷</strong>을 찾고 계신가요? 2026년 최신 정보를 바탕으로 <strong>원룸 인터넷 평균 비용</strong>, <strong>가입 혜택</strong>, <strong>현금지원</strong> 금액, 그리고 <strong>SKT, KT, LGU+</strong> 통신사별 <strong>장단점 비교</strong>까지. 이 가이드 하나로 모든 궁금증을 해결하세요!</p>
-    <a href="#quote-request" class="cta-button">무료 견적 상담 받기</a>
-  </div>
-
-  <section class="content-area">
-    <!-- Main Content Area -->
-    <main class="main-content">
-
-      <!-- Section 1: Introduction and Key Considerations -->
-      <section>
-        <h2>원룸 인터넷 가입 시 반드시 알아야 할 3가지</h2>
-        <p>원룸 이사를 앞두고 인터넷 가입을 하려는 분들이 가장 궁금해하는 것은 '얼마나 저렴한가'와 '어떤 혜택을 받을 수 있는가'입니다. 원룸 인터넷은 일반 아파트 이사와는 다르게 <strong>약정 기간</strong>, <strong>설치 가능 여부</strong>, <strong>현금 사은품</strong> 금액이 중요합니다. 많은 사람이 싼 곳을 찾다가 오히려 손해를 보는 경우가 많으니, 다음 3가지 핵심 요소를 먼저 살펴보시기 바랍니다.</p>
-        
-        <div class="image-container">
-          <!-- Pexels Image Source: A person using a laptop in a small room, representing one-room living. -->
-          <img src="https://images.pexels.com/photos/3764011/pexels-photo-3764011.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="원룸에서 노트북을 사용하는 모습" loading="lazy">
+    <header>
+        <div class="container nav-wrap">
+            <div class="nav-title">원룸인터넷비용 인텔리전스 센터</div>
+            <nav class="nav-links">
+                <a href="#summary-cost">요금제 비교</a>
+                <a href="#speed-guide">속도 가이드</a>
+                <a href="#regional-analysis">전국 지역망 분석</a>
+                <a href="#cost-calculator">실시간 견적기</a>
+                <a href="#faq-section">자주 묻는 질문</a>
+            </nav>
         </div>
+    </header>
 
-        <h3>1. 원룸 인터넷 비용의 평균과 차이점</h3>
-        <p>원룸 인터넷의 평균 비용은 100M 광랜 기준 <strong>월 20,000원에서 30,000원 사이</strong>로 형성되어 있습니다. 하지만 통신사별로, 그리고 가입 채널별로 제공되는 할인율과 혜택이 크게 달라집니다. 특히 <strong>신규 가입</strong> 고객에게는 <strong>현금 지원금</strong>이나 <strong>상품권</strong> 혜택이 주어지는데, 이 금액에 따라 체감 비용이 크게 달라집니다. <strong>저렴한 곳</strong>을 찾으려면 단순히 월 요금만 볼 것이 아니라, 3년 약정 기간 동안의 총 비용을 계산해봐야 합니다. <strong>가입 혜택</strong>이 많은 곳은 초기 비용 부담을 줄여주지만, 통신사마다 <strong>장점과 단점</strong>이 명확히 존재합니다.</p>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-badge">2026년 최신 통신 표준 요금 분석 리포트</div>
+                <h1>원룸인터넷비용 완벽 분석 및 최저가 견적 가이드</h1>
+                <p>100M부터 1G까지 통신 3사 및 알뜰인터넷 요금, 결합 할인, 설치비, 사은품 현금지원 혜택을 1분 만에 비교하고 월 통신비를 획기적으로 절약하세요.</p>
+                <a href="#cost-calculator" class="hero-cta">내 원룸 최저 요금 즉시 계산하기</a>
+            </div>
+        </section>
 
-        <h3>2. SKT, KT, LGU+ 통신사별 장단점 비교</h3>
-        <p>대한민국 3대 통신사인 SKT, KT, LGU+는 원룸 인터넷 시장에서 치열하게 경쟁하고 있습니다. <strong>KT</strong>는 인터넷 품질과 안정성 면에서 강점을 보이며, 특히 전국 어디서든 설치가 편리하다는 <strong>장점</strong>이 있습니다. <strong>SKT</strong>는 모바일 결합 시 할인 폭이 가장 크다는 <strong>장점</strong>이 있어 SKT 휴대폰을 사용하는 고객에게 <strong>추천</strong>됩니다. <strong>LGU+</strong>는 상대적으로 <strong>저렴한 가격</strong>과 다양한 결합 상품(OTT 서비스 등)을 제공하는 <strong>장점</strong>이 있습니다.</p>
+        <div class="container">
+            <!-- Content Block 1: Overview & Cost Structure -->
+            <article class="content-block" id="summary-cost">
+                <div class="section-tag">요금 구조 분석</div>
+                <h2>2026년 원룸인터넷비용, 얼마가 평균일까?</h2>
+                <p>원룸 및 오피스텔에 거주하는 1인 가구 자취생들이 가장 많이 궁금해하는 질문은 매달 지출해야 하는 <strong>원룸인터넷비용</strong>의 실제 적정선입니다. 2026년 현재 국내 통신 시장 기준, 단독 인터넷(3년 약정, 와이파이 포함) 상품의 월평균 예상 요금은 100Mbps 광랜 기준 <strong>월 22,000원</strong>, 500Mbps 기가라이트 기준 <strong>월 33,000원</strong>, 1Gbps 기가인터넷 기준 <strong>월 38,500원</strong> 내외로 형성되어 있습니다.</p>
+                <p>그러나 많은 자취생이 원룸 임대차 계약 시 건물 관리비에 인터넷 비용이 포함되어 있는지, 아니면 본인 명의로 신규 개별 가입을 진행해야 하는지 혼란을 겪습니다. 이 두 방식은 가격과 사용 환경, 장단점에서 뚜렷한 차이점을 보입니다.</p>
 
-        <h3>3. 현금 사은품 및 지원금의 중요성</h3>
-        <p>인터넷 가입 시 제공되는 <strong>현금 사은품</strong>은 <strong>신규 가입 혜택</strong> 중 가장 큰 부분을 차지합니다. 이 <strong>지원금</strong>은 통신사 본사 정책과 대리점 정책에 따라 <strong>금액</strong>이 달라집니다. <strong>네이버</strong>, <strong>구글</strong> 등에서 '원룸 인터넷 현금지원'을 검색해 보면 다양한 <strong>업체</strong>의 광고를 볼 수 있습니다. <strong>내돈내산 후기</strong>를 참고하여 <strong>전문 업체</strong>를 선택하는 것이 중요하며, 과도하게 높은 금액을 제시하는 곳은 주의할 필요가 있습니다.</p>
-      </section>
+                <div class="info-card">
+                    <h4>원룸 관리비 포함 인터넷 vs 개별 단독 가입 인터넷 비교 핵심</h4>
+                    <p>건물 공용 인터넷은 관리비에 월 5,000원에서 10,000원 수준으로 청구되어 겉보기에는 가장 저렴한곳으로 보이지만, 저녁 시간대 트래픽 과부하로 속도 저하가 심각할 수 있습니다. 반면 개별 단독 가입은 본인만의 대칭형 단독 회선을 보장받으며, 신규 가입 시 법적 가이드라인에 따른 사은품 현금지원 혜택을 수령하여 실질적인 월 납부 금액을 크게 낮출 수 있습니다.</p>
+                </div>
 
-      <!-- Section 2: In-depth Analysis and Data (for 20,000 characters content) -->
-      <section>
-        <h2>2026년 원룸 인터넷 요금제 및 사은품 상세 비교 분석</h2>
-        <p>원룸 인터넷은 주로 100M(광랜) 상품을 이용하며, 최근에는 고화질 스트리밍이나 게임을 즐기는 분들을 위해 500M(기가 라이트) 상품도 인기가 높습니다. <strong>2026년 기준</strong>, 통신사별 요금제와 <strong>사은품</strong> 혜택을 비교하여 가장 효율적인 선택을 돕겠습니다.</p>
-        
-        <!-- Comparison Table: Cost and Features -->
-        <h3>통신사별 원룸 인터넷 100M 상품 비교표 (2026년)</h3>
-        <table>
-          <thead>
-            <tr>
-              <th>통신사</th>
-              <th>상품명</th>
-              <th>월 기본 요금 (VAT 포함)</th>
-              <th>모바일 결합 할인 시 (1인 기준)</th>
-              <th>평균 사은품/현금지원금 (업체별 변동)</th>
-              <th>주요 장점</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>KT</td>
-              <td>인터넷 슬림</td>
-              <td>약 22,000원</td>
-              <td>-2,200원~4,400원</td>
-              <td>10만원~15만원대</td>
-              <td>안정적인 품질, 전국 커버리지 우수</td>
-            </tr>
-            <tr>
-              <td>SKT</td>
-              <td>B tv 이코노미</td>
-              <td>약 22,000원</td>
-              <td>-4,400원~8,800원 (가족 결합 시)</td>
-              <td>10만원~15만원대</td>
-              <td>SKT 휴대폰 결합 할인율이 높음</td>
-            </tr>
-            <tr>
-              <td>LGU+</td>
-              <td>인터넷 라이트</td>
-              <td>약 20,900원</td>
-              <td>-2,200원~4,400원</td>
-              <td>10만원~15만원대</td>
-              <td>상대적으로 저렴한 가격, 다양한 OTT 제휴</td>
-            </tr>
-          </tbody>
-        </table>
-        <p class="footnote">※ 상기 가격은 3년 약정 기준이며, 요금제에 따라 달라질 수 있습니다. 정확한 <strong>견적</strong>은 상담을 통해 확인하세요.</p>
+                <h3>통신사별 원룸 인터넷 기본 요금 및 실질 체감 비용 비교</h3>
+                <p>아래 표는 2026년 기준 주요 통신 브랜드인 KT, SK브로드밴드, LG유플러스 및 알뜰인터넷(스카이라이프, LG헬로비전 등)의 표준 요금제와 약정 기간별 예상 금액을 정리한 데이터입니다.</p>
 
-        <h3>원룸 인터넷 가입 시 현금지원금 수령 팁: 싼 곳 vs 전문 업체</h3>
-        <p>인터넷 가입은 <strong>평균</strong>적으로 3년 약정으로 진행되므로, 초기에 받는 <strong>현금지원금</strong>이 중요합니다. 일부 <strong>저렴한 곳</strong>을 강조하는 <strong>업체</strong>들은 과장 광고를 하거나, <strong>디시</strong>(DCC) 커뮤니티 등에서 비정상적인 혜택을 제시하기도 합니다. 하지만 이는 대개 미끼 상품이거나, 실제 혜택이 적은 경우가 많습니다. <strong>신뢰할 수 있는 전문 업체</strong>를 통해 상담을 받는 것이 <strong>가장 저렴한</strong> 방법입니다. 이들은 통신사별 정책을 정확히 알고 있어, 고객에게 <strong>최적의 혜택</strong>을 찾아줄 수 있습니다.</p>
+                <div class="table-wrapper">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>통신사 브랜드</th>
+                                <th>인터넷 속도</th>
+                                <th>3년 약정 기본 요금</th>
+                                <th>모바일 결합 시 요금</th>
+                                <th>예상 사은품 현금지원</th>
+                                <th>특징 및 장단점</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>KT 인터넷</strong></td>
+                                <td>100M / 500M</td>
+                                <td>22,000원 / 33,000원</td>
+                                <td>16,500원 / 27,500원</td>
+                                <td>최대 15만원 ~ 45만원</td>
+                                <td>전국 99% 대칭형 FTTH 광랜 구축, 해외망 및 게임 핑(Ping) 가장 우수</td>
+                            </tr>
+                            <tr>
+                                <td><strong>SK브로드밴드</strong></td>
+                                <td>100M / 500M</td>
+                                <td>22,000원 / 33,000원</td>
+                                <td>17,600원 / 26,400원</td>
+                                <td>최대 15만원 ~ 47만원</td>
+                                <td>SKT 휴대폰 결합(요즘가족결합) 할인폭 제일 큼, 가성비 우수</td>
+                            </tr>
+                            <tr>
+                                <td><strong>LG유플러스</strong></td>
+                                <td>100M / 500M</td>
+                                <td>22,000원 / 33,000원</td>
+                                <td>16,500원 / 27,500원</td>
+                                <td>최대 16만원 ~ 48만원</td>
+                                <td>기본 기가와이파이 공유기 무료 임대, OTT 연계 상품 및 사은품 최고 수준</td>
+                            </tr>
+                            <tr>
+                                <td><strong>알뜰인터넷(케이블/스카이)</strong></td>
+                                <td>100M / 200M</td>
+                                <td>13,200원 / 17,600원</td>
+                                <td>별도 결합 무관 동일</td>
+                                <td>상품권 5만원 ~ 15만원</td>
+                                <td>단독 가입 시 가장 싼곳, 지역에 따라 비대칭 HFC 혼재 가능성 존재</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-        <h3>전국 지역별 원룸 인터넷 환경 차이점</h3>
-        <p><strong>전국</strong>의 주요 도시(<strong>서울</strong>, <strong>부산</strong>, <strong>대구</strong>, <strong>인천</strong>, <strong>광주</strong>, <strong>대전</strong>, <strong>울산</strong>, <strong>세종</strong>)와 경기권 신도시(<strong>수원</strong>, <strong>고양</strong>, <strong>용인</strong>, <strong>성남</strong>, <strong>화성</strong>, <strong>부천</strong>, <strong>남양주</strong>, <strong>평택</strong>, <strong>안양</strong>, <strong>파주</strong>, <strong>김포</strong>, <strong>의정부</strong>)의 원룸은 인터넷 인프라가 잘 갖춰져 있어 <strong>가입</strong>이 수월합니다. 하지만 지방 소도시나 구도심(<strong>창원</strong>, <strong>청주</strong>, <strong>천안</strong>, <strong>전주</strong>, <strong>안산</strong>, <strong>김해</strong>, <strong>포항</strong>, <strong>제주</strong> 등)의 일부 원룸이나 빌라는 특정 통신사의 인터넷만 설치가 가능한 경우가 있습니다. 따라서 이사하려는 곳의 주소지를 정확히 확인하여 <strong>가입</strong> 가능 여부를 먼저 파악해야 합니다.</p>
+                <!-- Visual Chart -->
+                <div class="chart-card">
+                    <div class="chart-title">3년 총 비용 대비 실질 월 지출 비용 비교 (사은품 및 결합 적용 기준)</div>
+                    <div class="chart-sub">월 기본료 합계에서 모바일 결합할인 및 현금지원금을 차감한 실제 체감 월 납부 비용 분석</div>
+                    <div class="bar-group">
+                        <div class="bar-item">
+                            <div class="bar-label">KT 100M 결합형</div>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width: 48%;">월 실부담 약 13,200원</div>
+                            </div>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar-label">SK 500M+TV 결합</div>
+                            <div class="bar-track">
+                                <div class="bar-fill alt" style="width: 72%;">월 실부담 약 21,500원</div>
+                            </div>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar-label">LG 100M 단독</div>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width: 52%;">월 실부담 약 14,800원</div>
+                            </div>
+                        </div>
+                        <div class="bar-item">
+                            <div class="bar-label">알뜰인터넷 100M</div>
+                            <div class="bar-track">
+                                <div class="bar-fill alt" style="width: 38%;">월 실부담 약 11,000원</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
 
-        <h3>AI 기술을 활용한 인터넷 비용 비교 분석 (ChatGPT, Gemini)</h3>
-        <p>최근에는 <strong>ChatGPT</strong>나 <strong>Gemini</strong>와 같은 <strong>AI</strong> 기술이 인터넷 <strong>가입</strong> 분야에서도 활용되고 있습니다. AI 챗봇을 통해 고객의 거주 지역, 휴대폰 통신사, 원하는 속도 등 조건을 입력하면 실시간으로 <strong>예상 비용</strong>과 <strong>사은품</strong> 정보를 분석해주는 서비스가 등장하고 있습니다. 이러한 <strong>AI</strong> 기반의 <strong>비교</strong> 시스템은 고객이 직접 여러 <strong>업체</strong>를 방문하여 <strong>순위</strong>를 매기거나 <strong>비교</strong>할 필요 없이, 가장 <strong>저렴한</strong> 상품을 자동으로 추천해주는 <strong>장점</strong>이 있습니다.</p>
+            <!-- Content Block 2: Speed Selection & Lifestyle Matching -->
+            <article class="content-block" id="speed-guide">
+                <div class="section-tag">맞춤형 컨설팅</div>
+                <h2>원룸 인터넷 속도 종류별 비교: 100M vs 500M vs 1G</h2>
+                <p>인터넷 가입 시 가장 큰 고민 중 하나는 속도 선택입니다. 필요 이상의 고속 요금제를 선택하면 매달 불필요한 비용이 누적되며, 반대로 너무 낮은 속도를 선택하면 스트리밍 버퍼링과 다운로드 지연으로 불편을 겪게 됩니다.</p>
 
-        <!-- Pexels Image Source: A computer screen showing data analysis or comparison. -->
-        <div class="image-container">
-          <img src="https://images.pexels.com/photos/17708044/pexels-photo-17708044.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="데이터 분석 그래프와 노트북" loading="lazy">
+                <h3>1. 100Mbps 광랜 (실속형 자취생 추천)</h3>
+                <p>100Mbps 속도는 1인 가구 원룸 거주자에게 가장 대중적이고 저렴한 요금제입니다. 유튜브 4K 영상 스트리밍, 넷플릭스 및 티빙 시청, 웹서핑, 대학생 온라인 강의 수강, 배달의민족이나 쿠팡 등 일반적인 앱 사용 환경에서 전혀 끊김이 없습니다. 초당 약 12.5MB의 다운로드 속도를 제공하므로 10GB 용량의 영화를 다운받는 데 약 13분이 소요됩니다. 디시인사이드나 에펨코리아, 보배드림 등 커뮤니티 내돈내산 후기에서도 가성비가 제일 좋은 요금제로 평가받습니다.</p>
+
+                <h3>2. 500Mbps 기가라이트 (가장 균형 잡힌 인기 순위 1위)</h3>
+                <p>최근 원룸 및 오피스텔 거주자 중 재택근무 직장인, 온라인 고사양 게임(롤, 배틀그라운드, 발로란트, 스팀 게임) 유저들이 가장 선호하는 상품입니다. 초당 약 62.5MB를 전송하여 10GB 파일을 2분 40초 만에 내려받을 수 있습니다. 100M 대비 업로드 대역폭이 넉넉하여 클라우드 백업이나 대용량 자료 전송 시 월등한 쾌적함을 보입니다.</p>
+
+                <h3>3. 1Gbps 기가인터넷 (전문가 및 크리에이터 추천)</h3>
+                <p>유튜브나 아프리카TV, 트위치 등에서 고화질 실시간 방송을 송출하거나 대용량 영상 편집 원본을 매일 업로드하는 전문 크리에이터, 주식 실시간 초단타 트레이딩을 진행하는 사용자에게 적합합니다. 일반적인 원룸 자취 용도로는 오버스펙일 수 있으므로 신중한 선택이 권장됩니다.</p>
+            </article>
+
+            <!-- Content Block 3: Nationwide 35+ Regional Network Analysis -->
+            <article class="content-block" id="regional-analysis">
+                <div class="section-tag">전국 인프라 분석</div>
+                <h2>전국 주요 35개 이상 지역별 원룸 인터넷 배선 환경 및 추천 통신사</h2>
+                <p>원룸 건물은 지역과 준공 연도에 따라 인입되어 있는 통신 선로의 종류가 다릅니다. 대칭형 광케이블(FTTH)이 인입된 곳은 업로드와 다운로드 속도가 대칭을 이루며 지연시간(Latency)이 2ms 이하로 매우 안정적입니다. 반면 동축케이블 기반의 비대칭형(HFC) 선로는 비 오는 날 신호 감쇄나 업로드 속도 저하 현상이 발생할 수 있습니다.</p>
+
+                <h3>수도권 주요 원룸 밀집 지역 분석</h3>
+                <p><strong>서울</strong> 지역 중 대표적인 1인 가구 밀집지인 <strong>관악</strong> <strong>신림</strong>동, 봉천동 고시촌 일대와 <strong>마포</strong> <strong>홍대</strong>입구, 신촌 대학가, <strong>성북</strong> 안암동, <strong>동대문</strong> 회기동, <strong>종로</strong> 혜화동 등은 다세대 주택과 빌라가 많아 KT의 FTTH 망 인입률이 가장 높습니다. 비즈니스 원룸 및 오피스텔이 집중된 <strong>강남</strong> 역삼·논현, <strong>영등포</strong> 여의도·당산, <strong>송파</strong> 잠실 방이동 지역은 SK와 LG유플러스의 기가급 광케이블 인입률도 우수하여 통신 3사 모두 최적의 품질을 발휘합니다.</p>
+                <p><strong>인천</strong> <strong>부평</strong>, 구월동, 주안동 및 경기권의 <strong>수원</strong> 영통·인계동, <strong>성남</strong> <strong>분당</strong> 판교 테크노밸리 배후 주거지, <strong>고양</strong> <strong>일산</strong> 라페스타 상권 인근 원룸, <strong>부천</strong> 중동·상동, <strong>안양</strong> 범계·평촌, <strong>용인</strong> 기흥·수지, 대규모 신축 오피스텔이 급증한 <strong>평택</strong> 고덕 신도시 등은 신축 건물이 많아 3사 다이렉트 광랜 개통이 매우 용이합니다.</p>
+
+                <h3>충청·전라·경상·강원·제주권 주요 대학가 및 산업단지 분석</h3>
+                <p><strong>충청·대전</strong>권의 <strong>천안</strong> 두정동·신부동, <strong>아산</strong> 배방읍, <strong>청주</strong> 충북대 중문 및 복대동, <strong>대전</strong> <strong>유성</strong> 궁동·봉명동 일대는 KAIST 및 충남대 유학생과 연구원 원룸이 많아 500M 대칭형 인터넷 수요가 높습니다.</p>
+                <p><strong>전라·광주</strong>권의 <strong>전주</strong> 전북대 구정문 및 효자동 원룸촌, <strong>광주</strong> 전남대 후문 및 상무지구 오피스텔 단지 역시 알뜰인터넷과 대형 3사의 접전 지역입니다.</p>
+                <p><strong>경상·대구·부산·울산</strong>권의 <strong>대구</strong> 경북대 북문 및 동성로, <strong>포항</strong> 지곡·이동, <strong>울산</strong> 삼산동 및 성남동, <strong>부산</strong> <strong>서면</strong> 전포 카페거리 배후 원룸, <strong>해운대</strong> 장산·우동 센텀시티 권역, <strong>창원</strong> 상남동 일대는 각 통신사의 초고속 인프라가 촘촘히 구축되어 있습니다. 마지막으로 <strong>제주</strong> 제주시 연동·노형동 및 서귀포 신시가지의 경우 도서 지역 특성상 해저 광케이블 안정성이 뛰어난 KT 망의 선호도가 가장 높게 나타납니다.</p>
+            </article>
+
+            <!-- Content Block 4: Discount & Subsidy Strategies -->
+            <article class="content-block">
+                <div class="section-tag">절약 노하우</div>
+                <h2>원룸 인터넷 비용을 반값으로 줄이는 4가지 핵심 결합 할인 전략</h2>
+                <p>원룸인터넷비용을 최소화하는 가장 확실한 방법은 휴대폰 통신사와 동일한 브랜드로 인터넷을 묶는 유무선 결합 할인 제도를 적극 활용하는 것입니다.</p>
+
+                <ol>
+                    <li><strong>SK텔레콤 - 요즘가족결합:</strong> 본인 1인 모바일 회선만 묶어도 인터넷 요금에서 매달 3,300원에서 9,900원까지 요금 할인이 차감되며, 가입 요금제에 따라 휴대폰 요금 추가 할인이 동시 적용됩니다.</li>
+                    <li><strong>KT - 프리미엄 싱글결합 / 총액결합할인:</strong> 1인 가구 자취생이 LTE/5G 요금제 월 65,800원 이상 요금제를 사용할 경우, 모바일 요금에서 25% 요금할인을 추가로 제공하여 통신비를 대폭 절감합니다.</li>
+                    <li><strong>LG유플러스 - 참 쉬운 가족결합:</strong> 알뜰폰 사용자도 결합이 가능하도록 문호를 개방하여, U+ 알뜰폰 유심 요금제를 사용하는 원룸 거주자도 월 수천 원의 인터넷 할인을 받을 수 있습니다.</li>
+                    <li><strong>제휴 신용카드 자동이체 청구할인:</strong> 통신사 전용 제휴카드로 전월 실적(30만원~40만원) 충족 시 매월 15,000원에서 25,000원이 청구 할인되어, 사실상 인터넷을 0원에 가깝게 무료 이용하는 효과를 얻을 수 있습니다.</li>
+                </ol>
+
+                <h3>사은품 현금지원금 안전하게 받는 성지 좌표 및 대리점 비교 팁</h3>
+                <p>신규 가입 시 방송통신위원회 경품고시제 한도 내에서 지급되는 현금 사은품 지원금은 원룸 자취생에게 큰 혜택입니다. 통신사 본사 고객센터(114)를 통해 신청하면 통상 모바일 상품권 3만원에서 5만원 수준에 그치지만, 온라인 공식 인증 전문 비교 사이트나 성지 대리점을 통하면 인터넷 단독 기준 최대 10만원~18만원, 인터넷과 IPTV 동시 가입 시 최대 45만원~48만원의 현금지원을 설치 당일 안전하게 계좌로 수령할 수 있습니다.</p>
+                <p>온라인 커뮤니티(디시, 펨코, 뽐뿌 등)에서 언급되는 성지 좌표를 확인할 때는 사업자등록번호가 명확한지, 통신판매업 신고가 완료된 공인 대리점인지, 과도한 불법 페이백을 미끼로 가입을 유도한 뒤 잠적하는 유령 업체가 아닌지 면밀히 검토해야 합니다.</p>
+            </article>
+
+            <!-- Interactive Calculator Block (Boosts Dwell Time) -->
+            <section class="calculator-container" id="cost-calculator">
+                <div class="section-tag" style="background-color: #ffffff; margin-bottom: 8px;">스마트 견적 계산기</div>
+                <h3>내 원룸 인터넷 예상 비용 및 지원금 실시간 계산기</h3>
+                <p class="calc-sub">조건을 선택하면 2026년 기준 실납부 월 요금과 예상 사은품 금액을 즉시 산출해 드립니다.</p>
+
+                <form id="internetCalcForm" onsubmit="return false;">
+                    <div class="calc-grid">
+                        <div class="calc-field">
+                            <label for="calc_telecom">통신사 선택</label>
+                            <select id="calc_telecom">
+                                <option value="kt">KT 인터넷</option>
+                                <option value="sk">SK브로드밴드</option>
+                                <option value="lg">LG유플러스</option>
+                                <option value="skylife">KT스카이라이프 (알뜰)</option>
+                                <option value="hellog">LG헬로비전 (알뜰)</option>
+                            </select>
+                        </div>
+                        <div class="calc-field">
+                            <label for="calc_speed">희망 인터넷 속도</label>
+                            <select id="calc_speed">
+                                <option value="100">100Mbps 광랜 (일반 자취용)</option>
+                                <option value="500">500Mbps 기가라이트 (게임/재택)</option>
+                                <option value="1000">1Gbps 기가인터넷 (대용량/방송)</option>
+                            </select>
+                        </div>
+                        <div class="calc-field">
+                            <label for="calc_tv">IPTV(TV방송) 결합 여부</label>
+                            <select id="calc_tv">
+                                <option value="none">인터넷 단독 가입</option>
+                                <option value="basic">인터넷 + 기본형 TV (약 200개 채널)</option>
+                                <option value="advanced">인터넷 + 고급형 TV (OTT 결합)</option>
+                            </select>
+                        </div>
+                        <div class="calc-field">
+                            <label for="calc_mobile">휴대폰 결합 할인 여부</label>
+                            <select id="calc_mobile">
+                                <option value="none">미결합 (타 통신사 또는 알뜰폰)</option>
+                                <option value="single">동일 통신사 1회선 결합</option>
+                                <option value="multi">동일 통신사 2회선 이상 결합</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="calc-btn-wrap">
+                        <button type="button" class="calc-btn" onclick="calculateCost()">실시간 견적 및 현금지원 계산</button>
+                    </div>
+                </form>
+
+                <div id="calcResult" class="calc-result-box">
+                    <div class="result-row">
+                        <span>선택 상품:</span>
+                        <span id="resPlanName" style="font-weight: 600;">-</span>
+                    </div>
+                    <div class="result-row">
+                        <span>월 표준 기본 요금:</span>
+                        <span id="resBaseFee">-</span>
+                    </div>
+                    <div class="result-row">
+                        <span>결합 할인 예상 적용액:</span>
+                        <span id="resDiscount" style="color: var(--accent-teal);">-</span>
+                    </div>
+                    <div class="result-row">
+                        <span>개통 시 예상 사은품(현금/상품권):</span>
+                        <span id="resGift" style="color: var(--accent-blue); font-weight: 600;">-</span>
+                    </div>
+                    <div class="result-row">
+                        <span>최종 실납부 예상 요금(월):</span>
+                        <span id="resFinalFee">-</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Content Block 5: Moving, Contract Transfer & Penalties -->
+            <article class="content-block">
+                <div class="section-tag">주의사항 및 규정</div>
+                <h2>원룸 이사 시 인터넷 이전설치와 위약금(할인반환금) 완벽 대응법</h2>
+                <p>원룸이나 오피스텔 월세·전세 계약 기간(통상 1년 또는 2년)과 인터넷 약정 기간(통상 3년)의 불일치로 인해 계약 만료 시 위약금을 걱정하는 분들이 많습니다. 그러나 통신 서비스의 법적 규정을 숙지하면 불필요한 위약금을 완전히 피할 수 있습니다.</p>
+
+                <h3>1. 이전설치 신청 방법</h3>
+                <p>자취방 계약 만료 후 다른 원룸이나 투룸으로 이사할 경우, 기존 통신사를 해지하지 않고 고객센터 앱(마이KT, T월드, 당신의U+)이나 전화를 통해 <strong>이전설치</strong>를 신청하면 3년 약정과 결합 할인 혜택이 그대로 승계됩니다. 이때 발생하는 이전설치비는 통상 36,300원에서 47,300원(주말 개통 시 할증) 수준입니다.</p>
+
+                <h3>2. 위약금 전액 면제 조건 (이사 갈 건물에 설치 불가능한 경우)</h3>
+                <p>새로 이사하는 원룸 건물이 건물주 단체 계약으로 인해 개별 인터넷 인입이 불가능하거나, 해당 통신사의 선로가 들어가지 않는 지역인 경우 <strong>증빙서류(전입신고가 완료된 주민등록등본 및 임대차계약서)</strong>를 통신사에 제출하면 3년 약정이 남아있더라도 할인반환금(위약금)이 100% 면제 처리됩니다.</p>
+
+                <h3>3. 인터넷 약정 승계(양도) 방법</h3>
+                <p>다음 원룸 세입자나 지인에게 인터넷 회선 명의를 그대로 이전하는 명의변경(양도양수)을 진행하면 위약금 없이 깔끔하게 계약을 종료할 수 있습니다. 당근마켓이나 중고나라, 대학생 에브리타임(에타) 게시판을 통해 잔여 약정 승계자를 구하는 사례가 많습니다.</p>
+            </article>
+
+            <!-- Content Block 6: AI Search & 2026 Trends -->
+            <article class="content-block">
+                <div class="section-tag">미래 통신 동향</div>
+                <h2>AI 시대(제미나이·챗지피티)가 제안하는 2026 스마트 통신 소비 트렌드</h2>
+                <p>최근에는 네이버 AI 탭 검색, 구글 제미나이(Gemini), 오픈AI 챗지피티(ChatGPT)와 같은 인공지능 에이전트를 통해 통신비를 비교하고 컨설팅을 받는 사용자가 급증하고 있습니다. AI 엔진들이 공통적으로 추천하는 2026년 원룸 통신비 절약 3대 원칙은 다음과 같습니다.</p>
+                <ul>
+                    <li><strong>와이파이6(802.11ax) 공유기 필수 확인:</strong> 스마트폰, 태블릿, 노트북 등 다중 기기 접속이 많은 원룸 환경에서 간섭 없는 무선 통신을 위해 Wi-Fi 6 지원 공유기 무상 임대 프로모션을 선택할 것.</li>
+                    <li><strong>토스, 카카오페이 등 핀테크 통신비 캐시백 연계:</strong> 자동이체 등록 시 포인트 적립 및 캐시백 혜택을 주는 금융 플랫폼 이벤트를 매월 점검할 것.</li>
+                    <li><strong>SNS 및 메신저(인스타그램, 유튜브, 텔레그램) 허위 과장 광고 필터링:</strong> 터무니없이 높은 수백만 원대 현금 지급을 내세우며 고가 부가서비스(월 1만원 이상)를 6개월 이상 의무 유지하게 만드는 불공정 가입 조건을 배제할 것.</li>
+                </ul>
+            </article>
+
+            <!-- Content Block 7: FAQ Section -->
+            <article class="content-block" id="faq-section">
+                <div class="section-tag">자주 묻는 질문</div>
+                <h2>원룸인터넷비용 관련 핵심 FAQ</h2>
+
+                <div class="faq-group">
+                    <div class="faq-card">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>Q1. 원룸 1년 단기 계약인데 1년 약정으로 가입하는 것이 유리한가요?</span>
+                            <span>+</span>
+                        </div>
+                        <div class="faq-content">
+                            <p>1년 무약정이나 1년 약정 상품은 기본 요금이 월 3만원~4만원대로 매우 비싸며 사은품 혜택도 거의 없습니다. 3년 약정으로 가입하여 매월 1만원 이상의 요금 할인을 받고 사은품을 수령한 뒤, 이사 시 이전설치를 하거나 명의변경 양도를 하는 것이 총비용 측면에서 훨씬 경제적입니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-card">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>Q2. 원룸 벽면에 랜선 포트가 있는데 공유기만 꽂으면 인터넷이 되나요?</span>
+                            <span>+</span>
+                        </div>
+                        <div class="faq-content">
+                            <p>건물 메인 단자함에서 해당 호실로 신호가 활성화되어 있어야 합니다. 관리비에 인터넷이 포함된 원룸이라면 공유기 연결 즉시 작동하지만, 개별 가입 건물이라면 통신사 기사님이 방문하여 모뎀을 설치하고 신호를 개통하는 작업이 필요합니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-card">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>Q3. 주말이나 공휴일에도 원룸 인터넷 설치 기사님 방문이 가능한가요?</span>
+                            <span>+</span>
+                        </div>
+                        <div class="faq-content">
+                            <p>네, 통신 3사 모두 토요일 설치가 가능합니다. 다만 주말 개통 시에는 평일 출동비(기본 36,300원) 대비 약 25%의 휴일 할증 요금이 부과되어 약 45,000원대의 설치비가 첫 달 요금 고지서에 1회 청구됩니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-card">
+                        <div class="faq-header" onclick="toggleFaq(this)">
+                            <span>Q4. 원룸 인터넷 신규 가입 시 현금 사은품은 언제 입금되나요?</span>
+                            <span>+</span>
+                        </div>
+                        <div class="faq-content">
+                            <p>정식 인증을 받은 온라인 전문 대리점의 경우 통상 인터넷 설치 당일 저녁 또는 익일 전액 현금으로 본인 명의 계좌에 입금됩니다. 지급일이 일주일 이상 지연되는 업체는 피하시는 것이 안전합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Content Block 8: External Official References -->
+            <article class="content-block">
+                <div class="section-tag">신뢰할 수 있는 외부 출처</div>
+                <h2>통신 제도 및 공신력 있는 공식 사이트 안내</h2>
+                <p>원룸 인터넷 가입 전 요금 인가 기준 및 통신 이용자 권익 보호에 관련된 공인 기관의 정보를 확인하시기 바랍니다.</p>
+
+                <ul class="reference-list">
+                    <li class="reference-item">
+                        <a href="https://topspeedcnetj.withuslees.com" target="_blank" rel="noopener noreferrer">통신 요금 인텔리전스 가이드 포털 (Reliabledone)</a>
+                        <span>전국 초고속 통신망 배선 구조 및 1인 가구 통신비 절감 공식 분석 리포트 제공</span>
+                    </li>
+                    <li class="reference-item">
+                        <a href="https://namu.wiki/w/초고속인터넷" target="_blank" rel="noopener noreferrer">나무위키: 대한민국 초고속인터넷 인프라 및 역사</a>
+                        <span>FTTH, HFC, 기가인터넷의 기술적 차이 및 통신사별 백본망 특성 백과사전</span>
+                    </li>
+                    <li class="reference-item">
+                        <a href="https://www.kcc.go.kr/" target="_blank" rel="noopener noreferrer">방송통신위원회 (KCC) 공식 웹사이트</a>
+                        <span>경품고시제 가이드라인, 결합판매 금지행위 세부기준 및 통신 이용자 피해구제 안내</span>
+                    </li>
+                </ul>
+            </article>
         </div>
-      </section>
-
-      <!-- Section 3: FAQ and Tips for Saving Money -->
-      <section>
-        <h2 id="faq">원룸 인터넷 비용 절감 팁 및 자주 묻는 질문 (FAQ)</h2>
-        <div class="faq">
-          <div class="faq-item">
-            <div class="faq-question">Q1: 원룸 인터넷 설치 시 <strong>설치비용</strong>은 얼마인가요?</div>
-            <div class="faq-answer">A: 통신사마다 다르지만, 일반적으로 신규 설치 시 <strong>설치비</strong>가 발생하며, 보통 2~3만 원대입니다. 그러나 <strong>가입</strong> 시 <strong>사은품</strong> 또는 <strong>현금지원</strong> 금액으로 상쇄되는 경우가 많으므로 실질적인 부담은 적습니다.</div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">Q2: 원룸 인터넷 <strong>가입</strong> 시 <strong>사은품</strong>은 얼마나 받을 수 있나요?</div>
-            <div class="faq-answer">A: <strong>평균</strong>적으로 10~15만 원 수준의 <strong>현금지원</strong> 또는 상품권이 제공됩니다. 하지만 <strong>신규 가입</strong> 여부, 통신사, 요금제, 결합 상품 여부에 따라 <strong>금액</strong>이 크게 달라집니다. <strong>전문 업체</strong>와 상담 시 정확한 <strong>예상 금액</strong>을 확인할 수 있습니다.</div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">Q3: <strong>저렴한</strong> 원룸 인터넷을 찾는 <strong>단점</strong>은 무엇인가요?</div>
-            <div class="faq-answer">A: <strong>가격</strong>만 보고 <strong>가입</strong>할 경우, 약정 기간이 짧거나(1년 약정), 속도나 품질이 불안정한 상품일 수 있습니다. <strong>장단점</strong>을 고려하지 않고 <strong>싼곳</strong>만 고집하면 장기적으로 불편할 수 있습니다. <strong>내돈내산 후기</strong>를 참고하여 서비스 품질을 확인하는 것이 중요합니다.</div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">Q4: <strong>이사</strong>할 때 인터넷을 이전하거나 해지해야 하나요?</div>
-            <div class="faq-answer">A: 이사하는 지역이 동일 통신사 서비스 가능 지역이라면 <strong>이사</strong>를 신청하여 인터넷을 이전할 수 있습니다. <strong>이사</strong> 시점과 <strong>신규 가입</strong> 시점을 잘 맞춰야 위약금 없이 <strong>혜택</strong>을 받을 수 있으니 <strong>전문 업체</strong>와 상담하세요.</div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Section 4: External Links (Reliable Sources) -->
-      <section>
-        <h2>공인된 신뢰성 있는 정보 출처</h2>
-        <p>인터넷 통신 정책 및 용어에 대한 더 자세한 정보는 다음 외부 사이트에서 확인할 수 있습니다.</p>
-        <ul class="internal-links">
-          <li><a href="https://www.kcc.go.kr" target="_blank">방송통신위원회 (KCC)</a>: 인터넷 서비스 정책 및 규제 정보.</li>
-          <li><a href="https://www.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EB%84%B7_%EC%84%9C%EB%B9%84%EC%8A%A4" target="_blank">나무위키 - 인터넷 서비스</a>: 인터넷 서비스의 역사와 개념 설명.</li>
-          <li><a href="https://www.sktelecom.com" target="_blank">SKT 공식 홈페이지</a>: SKT 인터넷 상품 정보.</li>
-          <li><a href="https://www.kt.com" target="_blank">KT 공식 홈페이지</a>: KT 인터넷 상품 정보.</li>
-          <li><a href="https://www.lguplus.com" target="_blank">LGU+ 공식 홈페이지</a>: LGU+ 인터넷 상품 정보.</li>
-        </ul>
-      </section>
     </main>
 
-    <!-- Sidebar Content Area -->
-    <aside class="sidebar">
-      <!-- Section: Keywords and Internal Navigation -->
-      <section>
-        <h3>함께 많이 찾는 키워드 (자동완성 및 연관검색어)</h3>
-        <ul class="keyword-list">
-          <li><a href="#quote-request">원룸 인터넷 가입 혜택</a></li>
-          <li><a href="#faq">원룸 인터넷 현금지원 순위</a></li>
-          <li><a href="#pricing">원룸 인터넷 저렴한 곳</a></li>
-          <li><a href="#comparison-table">인터넷 100M/500M 가격 비교</a></li>
-          <li>원룸 인터넷 약정기간</li>
-          <li>인터넷 설치비용 면제</li>
-          <li>SKT KT LGU+ 장단점 차이점</li>
-          <li>원룸 인터넷 <strong>내돈내산 후기</strong></li>
-          <li>인터넷 사은품 많이 주는 곳</li>
-          <li><strong>디시</strong> 원룸 인터넷 팁</li>
-        </ul>
-      </section>
+	
+    <!-- Interactive Scripts for FAQ and Calculator -->
+    <script>
+        // FAQ Accordion Toggle
+        function toggleFaq(headerElement) {
+            const content = headerElement.nextElementSibling;
+            const icon = headerElement.querySelector('span:last-child');
+            const isOpen = content.classList.contains('open');
 
-      <!-- Section: Quick Request Form (for dwell time increase) -->
-      <section id="quote-request">
-        <h3>1분 견적 요청하기</h3>
-        <p>고객님의 거주지 조건에 맞는 최적의 <strong>원룸 인터넷 견적</strong>을 받아보세요.</p>
-        <form action="/submit-quote" method="post">
-          <label for="name">이름</label>
-          <input type="text" id="name" name="name" required placeholder="예: 홍길동">
+            // Close all open FAQs
+            document.querySelectorAll('.faq-content').forEach(item => {
+                item.classList.remove('open');
+            });
+            document.querySelectorAll('.faq-header span:last-child').forEach(item => {
+                item.textContent = '+';
+            });
 
-          <label for="phone">연락처</label>
-          <input type="tel" id="phone" name="phone" required placeholder="예: 010-1234-5678">
+            if (!isOpen) {
+                content.classList.add('open');
+                icon.textContent = '-';
+            }
+        }
 
-          <label for="address">이사 주소지 (정확한 견적을 위해 필수)</label>
-          <textarea id="address" name="address" rows="2" required placeholder="예: 서울특별시 강남구 역삼동 123-45 원룸"></textarea>
+        // Real-time Cost Calculator Function
+        function calculateCost() {
+            const telecom = document.getElementById('calc_telecom').value;
+            const speed = document.getElementById('calc_speed').value;
+            const tv = document.getElementById('calc_tv').value;
+            const mobile = document.getElementById('calc_mobile').value;
 
-          <label for="provider">현재 휴대폰 통신사 (결합 할인 확인)</label>
-          <select id="provider" name="provider">
-            <option value="none">선택</option>
-            <option value="skt">SKT</option>
-            <option value="kt">KT</option>
-            <option value="lgu">LGU+</option>
-            <option value="etc">알뜰폰/기타</option>
-          </select>
+            let basePrice = 22000;
+            let planName = "";
+            let giftAmount = 0;
+            let discountAmount = 0;
 
-          <button type="submit" class="cta-button" style="width:100%;">맞춤 견적 신청</button>
-        </form>
-      </section>
-    </aside>
-  </section>
+            // Speed base calculation
+            if (speed === "100") {
+                basePrice = 22000;
+                planName += "100M 광랜";
+                giftAmount += 120000;
+            } else if (speed === "500") {
+                basePrice = 33000;
+                planName += "500M 기가라이트";
+                giftAmount += 170000;
+            } else if (speed === "1000") {
+                basePrice = 38500;
+                planName += "1G 기가인터넷";
+                giftAmount += 200000;
+            }
 
-  <!-- Javascript for FAQ toggle -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const questions = document.querySelectorAll('.faq-question');
-      questions.forEach(question => {
-        question.addEventListener('click', () => {
-          const answer = question.nextElementSibling;
-          const isActive = question.classList.contains('active');
+            // TV Combo calculation
+            if (tv === "basic") {
+                basePrice += 13200;
+                planName += " + 기본형 TV 결합";
+                giftAmount += 230000;
+            } else if (tv === "advanced") {
+                basePrice += 17600;
+                planName += " + 고급형 OTT TV 결합";
+                giftAmount += 270000;
+            } else {
+                planName += " (인터넷 단독)";
+            }
 
-          // Close all answers first
-          document.querySelectorAll('.faq-answer').forEach(ans => ans.style.display = 'none');
-          document.querySelectorAll('.faq-question').forEach(q => q.classList.remove('active'));
+            // Telecom specific adjustments
+            let telecomPrefix = "";
+            if (telecom === "kt") {
+                telecomPrefix = "KT ";
+            } else if (telecom === "sk") {
+                telecomPrefix = "SK브로드밴드 ";
+            } else if (telecom === "lg") {
+                telecomPrefix = "LG유플러스 ";
+                giftAmount += 20000; // LG Promo boost
+            } else if (telecom === "skylife" || telecom === "hellog") {
+                telecomPrefix = "알뜰인터넷 ";
+                basePrice = Math.round(basePrice * 0.7); // Budget ISP discount
+                giftAmount = Math.round(giftAmount * 0.4);
+            }
 
-          // Open current question if it was closed
-          if (!isActive) {
-            question.classList.add('active');
-            answer.style.display = 'block';
-          }
-        });
-      });
-    });
-  </script>
-  
+            // Mobile bundle discount
+            if (mobile === "single") {
+                discountAmount = 5500;
+                if (speed === "500" || speed === "1000") discountAmount = 9900;
+            } else if (mobile === "multi") {
+                discountAmount = 11000;
+                if (speed === "500" || speed === "1000") discountAmount = 17600;
+            }
+
+            if (telecom === "skylife" || telecom === "hellog") {
+                discountAmount = 0; // Budget ISP generally lacks high-tier mobile bundle
+            }
+
+            const finalPrice = Math.max(0, basePrice - discountAmount);
+
+            // Display results
+            document.getElementById('resPlanName').innerText = telecomPrefix + planName;
+            document.getElementById('resBaseFee').innerText = basePrice.toLocaleString() + "원 / 월";
+            document.getElementById('resDiscount').innerText = "-" + discountAmount.toLocaleString() + "원 / 월";
+            document.getElementById('resGift').innerText = "최대 " + giftAmount.toLocaleString() + "원 상당 (현금 및 상품권)";
+            document.getElementById('resFinalFee').innerText = "월 " + finalPrice.toLocaleString() + "원 (부가세 포함)";
+
+            document.getElementById('calcResult').style.display = 'block';
+        }
+    </script>
+
+
+	
 
 
 
-
-
+	
 <footer id="dynamic-footer" style="font-size: 12px; color: #777; padding: 40px 20px; text-align: center; line-height: 1.8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #fafafa; border-top: 1px solid #eee;">
   
   <div style="margin-bottom: 12px; font-weight: 500; color: #444;">
